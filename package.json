@@ -1,0 +1,17 @@
+{
+  "type": "module",
+  "name": "cypress-test-issue",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Adrian Soovary <adrian.soovary@encoway.de>",
+  "license": "MIT",
+  "packageManager": "yarn@4.0.2",
+  "devDependencies": {
+    "cypress": "^13.6.3",
+    "typescript": "^5.3.3"
+  },
+  "scripts": {
+    "cypress:open": "cypress open",
+    "cypress:run": "cypress run"
+  }
+}
